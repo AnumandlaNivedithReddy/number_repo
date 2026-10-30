@@ -92,3 +92,11 @@
 # s="hello"
 # s.sort()
 # print(s)
+
+
+
+class Students:
+    def display(self):
+        print("Hello, I am a student")
+s1 = Students()
+s1.display()

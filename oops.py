@@ -49,34 +49,56 @@
 
 '''5'''
 
-# class bank():
-#   Amount=0
-#   def __init__(self,Customer_Name,Customer_Number,add=0,sub=0):
-#     self.name=Customer_Name
-#     self.number=Customer_Number
-#     self.add=add
-#     self.sub=sub
-#   def deposit(self):
-#     amount=amount+self.amount
-#     return amount   
-#   def withdraw(self):
-#     self.amount=self.amount-self.sub
-#     return self.amount
-# c1=bank("niv",1,)
+# class Bank:
+#     def __init__(self, customer_name, customer_number, balance=0):
+#         self.name = customer_name
+#         self.number = customer_number
+#         self.amount = balance
+#     def deposit(self, deposit_amount):
+#         self.amount = self.amount + deposit_amount
+#         return self.amount
+#     def withdraw(self, withdraw_amount):
+#         if withdraw_amount <= self.amount:
+#             self.amount = self.amount - withdraw_amount
+#             return self.amount
+#         else:
+#             print("Insufficient balance!")
+#             return self.amount
+#     def display(self):
+#         print("Customer Name:", self.name)
+#         print("Customer Number:", self.number)
+#         print("Account Balance:", self.amount)
+# c1 = Bank("Niv", 1, 1000)
+# c1.display()
+# print("Balance after deposit:", c1.deposit(500))
+# print("Balance after withdrawal:", c1.withdraw(200))
+
 
 
 '''6'''
-class Student:
-    def __init__(self, name, roll, branch):
-        self._name = name            
-        self._roll = roll           
-        self._branch = branch       
-    def _displayRollAndBranch(self): 
-        print("Roll:", self._roll)
-        print("Branch:", self._branch)
-class Geek(Student):
-    def displayDetails(self):
-        print("Name:", self._name)  
-        self._displayRollAndBranch() 
-obj = Geek("R2J", 1706256, "IT")
-obj.displayDetails()
+# class Student:
+#     def __init__(self, name, roll, branch):
+#         self._name = name            
+#         self._roll = roll           
+#         self._branch = branch       
+#     def _displayRollAndBranch(self): 
+#         print("Roll:", self._roll)
+#         print("Branch:", self._branch)
+# class Geek(Student):
+#     def displayDetails(self):
+#         print("Name:", self._name)  
+#         self._displayRollAndBranch() 
+# obj = Geek("R2J", 1706256, "IT")
+# obj.displayDetails()
+
+
+
+# for n in range(2, 10):
+#   for d in range(2, n):
+#       if n % d == 0:
+#           break
+#   else:
+#       print(n, end=" ")
+
+
+

@@ -42,15 +42,15 @@
 
 
 
-# from pathlib import Path
-# Base_DIR=Path(__file__).resolve().parent
-# print(Base_DIR)
-# data_DIR=Base_DIR / "data"
-# print(data_DIR)
-# data_DIR.mkdir(parents=True,exist_ok=True)
-# File_PATH=data_DIR / "students.txt"
-# print(File_PATH)
-# if File_PATH.exists():
-#     print("The file is exist")
-# else:
-#     print("The file is doesnot exist")
+from pathlib import Path
+Base_DIR=Path(__file__).resolve().parent
+print(Base_DIR)
+data_DIR=Base_DIR / "data"
+print(data_DIR)
+data_DIR.mkdir(parents=True,exist_ok=True)
+File_PATH=data_DIR / "students.txt"
+print(File_PATH)
+if File_PATH.exists():
+    print("The file is exist")
+else:
+    print("The file is doesnot exist")

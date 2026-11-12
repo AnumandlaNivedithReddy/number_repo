@@ -20,11 +20,11 @@ try:
   elif choice==3:
       content=input("Enter your content:")
       with open(file_name,"a") as f:
-        f.write(content)
+        f.write("\n"+content)
       print("Appended Successfull")
   else:
     print("Invalid Choice")
 except FileNotFoundError:
-  print("File is not found")
+  print("\nFile is not found Try different file name")
 finally:
-  print("\n\nThank You")
+  print("\n\n*************Thank You*************")

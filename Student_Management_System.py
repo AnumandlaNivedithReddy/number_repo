@@ -1,3 +1,6 @@
+'''Student Managment System'''
+
+
 # class Student:
 #     def __init__(self, student_id, student_name, student_marks):
 #         self.id = student_id
@@ -33,3 +36,6 @@
 # S2.display_details()
 # S3.display_details()
 # S4.display_details()
+
+
+
